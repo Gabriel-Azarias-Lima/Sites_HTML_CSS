@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Pascoa</title>
+    <link rel="shortcut icon" href="icones/chefe-de-cozinha.png">
+
+    <!-- CSS NATIVO -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+
+    <!-- CSS ICONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="pg-2">
+    <header>
+        <div class="container_header">
+            <a href="index.html" rel="prev"> <blockquote cite="https://www.flaticon.com/br/icones-gratis/padeiro - Padeiro ícones criados por Flat Icons - Flaticon"><img class="logo" src="icones/chefe-de-cozinha.png" alt="" width="100px"></blockquote></a>
+            <a href="index.html" rel="prev">
+                <h1 class="logo">Delícias da Léia</h1>
+            </a>
+        </div>
+
+        <div class="header_redes">
+            <h2>Delícias da Léia</h2>
+
+            <div class="redes">
+                <a href="#" target="_blank" rel="external" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/analivia.morena?mibextid=ZbWKwL" target="_blank" rel="external" class="footer-link" id="facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="https://github.com/Gabriel-Azarias-Lima" target="_blank" rel="external" class="footer-link" id="github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="container_sorteio_meio">
+        
+    </div>
+
+
+
+
+
+    <div class="sorteio" id="cesta">
+        <h1>Sobre o Sorteio</h1>
+    </div>
+
+    <div class="container-sorteio">
+        
+        <img src="imagem/cesta.jpg" alt="" width="40%">
+
+
+
+        <div class="rifa">
+            <h1>A cesta ira contes:</h1>
+            <ul>
+                <li><img src="imagem/coelho.png" alt="sobre a cesta" width="100%"></li>
+            </ul>
+            <a href="https://api.whatsapp.com/send/?phone=5516991409836&text=Oi.%20Gostaria%20de%20Comprar:" target="_blank" rel="external"><button class="btn">Fazer Pedido</button></a>
+        </div>
+    </div>
+
+   
+    <!-- Footer -->
+    
+    
+    <footer>
+        <div id="footer_content">
+            <div class="footer_contacts">
+                <h1>Delícias da Léia</h1>
+
+                <div class="footer_social_media">
+                    <a href="#" target="_blank" rel="external" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i> 
+                    </a>
+
+                    <a href="https://www.facebook.com/analivia.morena?mibextid=ZbWKwL" target="_blank" rel="external" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="https://github.com/Gabriel-Azarias-Lima" target="_blank" rel="external" class="footer-link" id="github">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <ul class="footer_list">
+                <li>
+                    <h3>Cardápios</h3>
+                </li>
+                <li>
+                    <a href="index.html#doces" class="footer-link">Doces</a>
+                </li>
+
+                <script>
+                    function scrollToDoces(event) {
+                      event.preventDefault();
+                      const docesSection = document.getElementById('doces');
+                      const yOffset = -70; // altura do cabeçalho (se necessário, ajuste de acordo com sua página)
+                      const y = docesSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                  
+                      window.scrollTo({ top: y, behavior: 'smooth' });
+                    }
+                  
+                    const docesLink = document.querySelector('a[href="#doces"]');
+                    docesLink.addEventListener('click', scrollToDoces);
+                  </script>
+
+                <li>
+                    <a href="index.html#pascoa" class="footer-link">Novidade de Pascoa</a>
+                </li>
+
+                <script>
+                    function scrollToDoces(event) {
+                      event.preventDefault();
+                      const pascoaSection = document.getElementById('pascoa');
+                      const yOffset = -70; // altura do cabeçalho (se necessário, ajuste de acordo com sua página)
+                      const y = pascoaSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                  
+                      window.scrollTo({ top: y, behavior: 'smooth' });
+                    }
+                  
+                    const pascoaLink = document.querySelector('a[href="#pascoa"]');
+                    pascoaLink.addEventListener('click', scrollToDoces);
+                  </script>
+            </ul>
+
+            
+
+            <ul class="footer_list">
+                <li>
+                    <h3>Novidades</h3>
+                </li>
+                <li>
+                    <a href="#cesta" class="footer-link">Sorteio de Pascoa</a>
+                </li>
+
+                <script>
+                    function scrollToDoces(event) {
+                      event.preventDefault();
+                      const cestaSection = document.getElementById('cesta');
+                      const yOffset = -70; // altura do cabeçalho (se necessário, ajuste de acordo com sua página)
+                      const y = cestaSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                  
+                      window.scrollTo({ top: y, behavior: 'smooth' });
+                    }
+                  
+                    const cestaLink = document.querySelector('a[href="#cesta"]');
+                    cestaLink.addEventListener('click', scrollToDoces);
+                  </script>
+
+            </ul>
+
+            <div id="footer_subscribe">
+                <ul class="footer_list">
+                    <li>
+                        <h3>Contatos</h3>
+                    </li>
+                    <li>
+                        <p class="footer-link">vanderleiap048@gmail.com</p>
+                    </li>
+                    <li>
+                        <p class="footer-link">16991409836</p>
+                    </li>
+                    <li>
+                        <p class="footer-link">Serrana, Rua Agenor Branco 160</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2023 all rights reserv
+        </div>
+    </footer>
+
+
+
+
+
+
+    
+    
+</body>
+</html>
